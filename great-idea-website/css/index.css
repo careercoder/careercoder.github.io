@@ -164,3 +164,9 @@ h3{ font-size: 1.25em;}
 
 section#contact{ border-top: solid 1px;  margin: 35px 0; padding: 35px 0; }
 section#footer{ text-align:center; padding: 50px 0;  }
+
+#getstartedBTN:hover{ 
+	background-color:darkred;
+	color: #fff;
+	cursor:pointer;
+}
