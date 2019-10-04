@@ -12,18 +12,63 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <style>
+    .container{
+      width:100%;
+      max-width:850px;
+      margin: 0 auto;
+    }
+
+    section#top{
+      clear:both;
+    }
+
+    nav#primary{ max-width: 73%; min-width: 73%; display: inline; }
+
+    nav#primary a{
+      display: inline;
+      padding: 25px 45px 25px 0;
+      text-decoration: none;
+      color: gray;
+    }
+
+    .branding{
+      display: inline;
+      min-width: 25%;
+      max-width: 25%;
+      text-align: right;
+    }
+
+    .branding img{ padding:25px; }
+  </style>
+
+
 </head>
 
   <body>
 
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
+<div class="container">
+  <section id="top">  
 
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+    <!-- // primary navigation -->
+    <nav id="primary">
+      <a href="#">Services</a>
+      <a href="#">Product</a>
+      <a href="#">Vision</a>
+      <a href="#">Features</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- // branding -->
+    <div class="branding">
+      <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+    </div>
+  
+  </section>
+
+
+
   Innovation
   On
   Demand
@@ -59,5 +104,6 @@
 
   Copyright Great Idea! 2018
   
+  </div>
   </body>
 </html>
