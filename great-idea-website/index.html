@@ -12,98 +12,143 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-  <style>
-    .container{
-      width:100%;
-      max-width:850px;
-      margin: 0 auto;
-    }
-
-    section#top{
-      clear:both;
-    }
-
-    nav#primary{ max-width: 73%; min-width: 73%; display: inline; }
-
-    nav#primary a{
-      display: inline;
-      padding: 25px 45px 25px 0;
-      text-decoration: none;
-      color: gray;
-    }
-
-    .branding{
-      display: inline;
-      min-width: 25%;
-      max-width: 25%;
-      text-align: right;
-    }
-
-    .branding img{ padding:25px; }
-  </style>
 
 
 </head>
 
   <body>
 
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+
 <div class="container">
-  <section id="top">  
+  <div class="row">
+    <section id="top">
 
-    <!-- // primary navigation -->
-    <nav id="primary">
-      <a href="#">Services</a>
-      <a href="#">Product</a>
-      <a href="#">Vision</a>
-      <a href="#">Features</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
+      <!-- // primary navigation -->
+      <div class="col-md-9">
+        <nav id="primary">
+          <a href="#">Services</a>
+          <a href="#">Product</a>
+          <a href="#">Vision</a>
+          <a href="#">Features</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
 
-    <!-- // branding -->
-    <div class="branding">
-      <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+      <!-- // branding -->
+      <div class="col-md-3">
+        <div class="branding">
+          <img class="logo" src="https://raw.githubusercontent.com/careercoder/User-Interface/master/great-idea-website/img/logo.png" alt="Great Idea! Company logo.">
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <section id="header">
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="tagline-holder">
+          <h1 class="tagline"> Innovation On Demand </h1>
+        </div>
+        <div class="call-to-action-btn-holder">
+          <button id="getstartedBTN">Get Started</button>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+
+        <img src="https://raw.githubusercontent.com/careercoder/User-Interface/master/great-idea-website/img/header-img.png" alt="Image of a code snippet.">
+
+      </div>
+
     </div>
-  
+
   </section>
 
+  <div class="row">
+    <section id="summary">
+      <div class="col-md-6">
+        <h3>Features</h3>
+        <p>
+          Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+        </p>
+      </div>
 
+      <div class="col-md-6">
+        <h3>About</h3>
+        <p>
+          Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+        </p>
+      </div>
 
-  Innovation
-  On
-  Demand
-
-  Get Started
-
-  <img src="img/header-img.png" alt="Image of a code snippet.">
-
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
-  
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
-  sales@greatidea.io
-
-  Copyright Great Idea! 2018
-  
+    </section>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="middle-image">
+        <img class="middle-img" src="https://raw.githubusercontent.com/careercoder/User-Interface/master/great-idea-website/img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <h3>Services</h3>
+      <p>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+    </div>
+
+    <div class="col-md-4">
+
+      <h3>Product</h3>
+      <p>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      </p>
+    </div>
+
+    <div class="col-md-4">
+
+      <h3>Vision</h3>
+      <p>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+        <p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <section id="contact">
+
+        <address>      
+    <h4>Contact</h4>
+  123 Way 456 Street <br />
+  Somewhere, USA <br /><br />
+  1 (888) 888-8888 <br /><br />
+  sales@greatidea.io<br />
+      </address>
+
+      </section>
+    </div>
+  </div>
+
+  <section id="footer">
+    <div class="row">
+      <div class="col-md-12">
+
+        Copyright Great Idea! 2018
+
+      </div>
+    </div>
+  </section>
+</div>
+</div>
+    
+    
   </body>
 </html>
