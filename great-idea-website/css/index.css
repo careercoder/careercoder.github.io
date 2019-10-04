@@ -128,6 +128,10 @@ nav#primary{
 
 .branding{ padding-top: 10px; text-align:right; }
 
+
+.splash-image-holder{ text-align: right; }
+
+
 nav#primary a{
   padding-right: 2.5em;
   color: lightgray;
