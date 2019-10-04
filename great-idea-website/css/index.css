@@ -126,7 +126,7 @@ nav#primary{
   padding-top: 25px;
 }
 
-.branding{ padding-top: 10px; }
+.branding{ padding-top: 10px; text-align:right; }
 
 nav#primary a{
   padding-right: 2.5em;
