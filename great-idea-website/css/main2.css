@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+/*** col containers ***/
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    display:inline-block;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 15px;
+  clear:both;
+}
+
+
+.container{
+      width:100%;
+      max-width:960px;
+      margin: 0 auto;
+    }
+
+nav#primary{
+  padding-top: 25px;
+}
+
+.branding{ padding-top: 10px; text-align:right; }
+
+
+.splash-image-holder{ text-align: right; }
+
+
+nav#primary a{
+  padding-right: 2.5em;
+  color: #B7B7B7;
+  text-decoration: none;
+}
+
+
+section#header{ margin-top: 75px; }
+
+.tagline-holder{ text-align:center; padding-top: 50px; }
+.tagline{ font-size:5em; text-align:center; 
+  text-transform: uppercase;
+word-spacing: 100vw;}
+
+.call-to-action-btn-holder{ text-align:center; }
+#getstartedBTN{ border: solid 1px #000; background: #fff; font-size:1.2em; padding: 5px 30px;}
+
+
+#summary{ border-top: solid 1px #000; padding: 35px 0; margin: 50px 0; }
+
+.middle-image { padding: 15px 0; }
+.middle-image img{ width: 100%; }
+
+/** fix ugly **/
+.col-md-4{ }
+
+h3{ font-size: 1.25em;}
+
+.col-md-4 p { padding-right: 15px; }
+
+section#contact{ border-top: solid 1px;  margin: 35px 0; padding: 35px 0; }
+section#footer{ text-align:center; padding: 50px 0;  }
+
+#getstartedBTN:hover{ 
+	background-color:darkred;
+	color: #fff;
+	cursor:pointer;
+}
